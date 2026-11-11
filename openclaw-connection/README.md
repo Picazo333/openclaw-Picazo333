@@ -1,15 +1,14 @@
-# Connection — Evidencia real
+# openclaw-connection — evidencias reales (actividad 04)
 
-1. Crear bot en Telegram con BotFather y emparejarlo en OpenClaw.
-2. Conectar Zapier MCP a una cuenta de prueba con las acciones Google Docs Create Document y Google Calendar Create Event.
-3. En Telegram pedir que cree un documento y un evento para revisarlo. Si se omite la hora, verificar que el agente la solicita.
-4. Comprobar el Doc, el evento y la respuesta real en Telegram.
-5. Guardar capturas **sin credenciales ni datos personales** aquí:
-   - `01-telegram-operativo.png`
-   - `02-zapier-conectado.png`
-   - `03-conversacion-telegram.png`
-   - `04-google-doc-creado.png`
-   - `05-google-calendar-evento.png`
-6. Actualizar `notes.md` con resultados observados, no previstos.
+| Archivo | Qué demuestra |
+|---|---|
+| `01-telegram-conectado.jpg` | Captura del móvil: emparejamiento del bot y primera respuesta de AulaClaw (ID de Telegram y código de emparejamiento tapados) |
+| `01b-telegram-canal-cli.png` | Salida real de `openclaw channels status` / `pairing list`: Telegram enabled, running, connected |
+| `02-zapier-mcp.png` | Salida real de `openclaw mcp list/probe` (17 herramientas) y resumen de las conexiones Google activas |
+| `02-zapier-mcp-chat.md` | Transcripción íntegra (redactada) de la consulta de herramientas, conexiones y verificación solo lectura del Doc y del evento |
+| `03-conversacion-e2e.md` | Conversación completa exportada del VPS: petición, herramientas Zapier llamadas, preguntas de aclaración y confirmaciones |
+| `03-telegram-confirmacion-evento.jpg` | Captura del móvil: confirmación del evento por Telegram |
+| `04-google-doc-creado.png` | Captura de Google Docs: documento «Prueba AulaClaw» en la cuenta de pruebas |
+| `notes.md` | Decisiones y fallos observados |
 
-Las capturas no se generan artificialmente; son evidencia de integraciones reales.
+No contiene tokens, URLs privadas de MCP, correos ni IDs completos.
