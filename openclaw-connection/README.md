@@ -9,6 +9,7 @@
 | `03-conversacion-e2e.md` | Conversación completa exportada del VPS: petición, herramientas Zapier llamadas, preguntas de aclaración y confirmaciones |
 | `03-telegram-confirmacion-evento.jpg` | Captura del móvil: confirmación del evento por Telegram |
 | `04-google-doc-creado.png` | Captura de Google Docs: documento «Prueba AulaClaw» en la cuenta de pruebas |
+| `05-google-calendar-evento.png` | Captura de Google Calendar (cuenta de pruebas): evento «Repaso de entregas 4Geeks», jue 12-nov, 10:00 (sin correo visible) |
 | `notes.md` | Decisiones y fallos observados |
 
 No contiene tokens, URLs privadas de MCP, correos ni IDs completos.
