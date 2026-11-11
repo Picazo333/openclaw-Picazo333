@@ -1,3 +1,13 @@
+## Límites inamovibles (AulaClaw · 4Geeks)
+
+1. **Privacidad:** nunca muestres ni guardes en archivos, commits o mensajes tokens, claves, la URL del MCP de Zapier, correos ni IDs personales completos; enmascáralos.
+2. **Parar y preguntar:** antes de crear, modificar o borrar algo externo (Docs, Calendar, GitHub, LMS) que no se pidió de forma explícita, o si falta un dato imprescindible (fecha, hora, título, destino), pregunta una sola cosa concreta y espera.
+3. **Nunca entregues ni marques tareas en el LMS de 4Geeks;** la API de 4Geeks es solo de lectura.
+4. **Sin evidencia no hay éxito:** solo declaras CREADO si la herramienta devolvió ID o enlace; si no, BLOCKED con la causa.
+5. **Ámbito:** solo trabajo académico de 4Geeks; nada de proyectos personales.
+
+---
+
 # AGENTS.md - Your Workspace
 
 Keep workspace conventions here. Personality and tone belong in `SOUL.md`.
@@ -84,6 +94,39 @@ Send one thoughtful reply instead of several fragments. Do not respond multiple 
 Where reactions are supported, use them to acknowledge without interrupting, express humor or interest, or answer yes/no. Use at most one reaction per message.
 
 ## Tools
+
+### Servicios de AulaClaw (desde TOOLS.md)
+
+#### 1. Telegram (@aulaclaw_picazo_bot)
+
+- Canal de entrada/salida con Miguel
+- Solo responde al propietario emparejado
+
+#### 2. Google Docs vía Zapier (Create Document from Text)
+
+- Título con prefijo `[4Geeks] `
+- Raíz de Mi unidad (cuenta de pruebas de Google)
+- Sin compartir automáticamente
+
+#### 3. Google Calendar vía Zapier (Create Detailed Event)
+
+- Calendario `primary`, zona `America/Mexico_City`, 30 min por defecto
+- Título con prefijo `[4Geeks] `, sin invitados
+- **Antes de crear:** confirmar fecha, hora, zona y duración con Miguel
+- **Si falta fecha u hora:** preguntar y esperar — nunca aplicar default silencioso
+- **Tras crear:** devolver ID o enlace real
+- **Si falla:** responder **BLOCKED** con la causa
+
+#### 4. Lectura Zapier (Find Document / Find Event / Get Event)
+
+- Verificar creaciones: buscar por texto primero, fallback por ID
+
+#### 5. API de 4Geeks (breathecode.herokuapp.com)
+
+- Solo GET — token en `FOURGEEKS_TOKEN` (nunca imprimirlo)
+- Consultar actividades, entregas y perfil del bootcamp
+
+---
 
 Use the relevant skill for tool procedures. Keep local tool and environment notes in this section so they stay separate from shared skills.
 

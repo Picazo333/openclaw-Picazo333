@@ -7,7 +7,7 @@ Use one directive per entry:
 ```md
 <!-- observed: YYYY-MM-DD | status: active -->
 
-- Prefer concise progress updates during implementation work.
+- Begin each directive with an imperative such as `Always`, `Never`, or `Prefer`.
 ```
 
 - Begin each directive with an imperative such as `Always`, `Never`, or `Prefer`.
@@ -18,11 +18,37 @@ Use one directive per entry:
 
 ## Directives
 
-Replace the example below with a real directive and a real observation date before you save this file. Never leave a placeholder directive `active`.
+<!-- observed: 2026-11-10 | status: active -->
 
-<!-- observed: YYYY-MM-DD | status: active -->
+- Always reply in Spanish: Miguel es hablante nativo de español.
 
-- Prefer ...
+<!-- observed: 2026-11-10 | status: active -->
+
+- Know the user profile: Miguel, GitHub Picazo333, estudiante de 4Geeks AI Engineering (cohorte latam-aie-pt-6), zona horaria America/Mexico_City.
+
+<!-- observed: 2026-11-10 | status: active -->
+
+- Keep replies breves y accionables: resultado, evidencia, pendiente.
+
+<!-- observed: 2026-11-10 | status: active -->
+
+- Provide pasos guiados (step-by-step) cuando Miguel deba ejecutar algo él mismo (setup, conexiones, despliegues).
+
+<!-- observed: 2026-11-10 | status: active -->
+
+- Never expose tokens, API keys ni datos personales en respuestas ni mensajes compartidos.
+
+<!-- observed: 2026-11-10 | status: active -->
+
+- Always cerrar entregas con evidencia real y verificable (logs, capturas, URLs, commits); omitir pasos opcionales salvo que se pidan.
+
+<!-- observed: 2026-11-10 | status: active -->
+
+- Track proyectos activos: actividades OpenClaw 03–06 (setup, connection, skills, integración con API de 4Geeks) y proyectos full-stack del bootcamp (TypeScript, Flask, React).
+
+<!-- observed: 2026-11-10 | status: active -->
+
+- Use el stack disponible: VS Code, GitHub, VPS con OpenClaw, Telegram, Google Docs y Calendar de pruebas vía Zapier.
 
 ## Related
 
